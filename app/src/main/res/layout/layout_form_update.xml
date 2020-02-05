@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/data1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:hint="@string/data1"
+                    android:background="@drawable/bg_edt"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="@color/colorAccent" />
+
+
+                <EditText
+                    android:id="@+id/data2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:hint="@string/data2"
+                    android:background="@drawable/bg_edt"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColorHint="@color/colorAccent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
